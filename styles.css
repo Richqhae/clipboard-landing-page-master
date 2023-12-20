@@ -12,7 +12,7 @@ h1{
 }
 
 p{
-    margin: 5px;
+    margin: 10px;
 }
 
 .topOuter{
@@ -26,26 +26,28 @@ p{
 
 .topImg1{
     position: relative;
+    width: 75rem;
 }
                   
 .topImg2{
     position: absolute;
-    margin: 100px 650px
+    margin: 100px 550px
     
 }
 
-.secTop{
-
+.topMid{
+    margin: 50px 0;
 }
 
 .midh{
     float: left;
     margin-left: 50px;
+    margin-top: 50px;
 }
 
 .midImg{
     float: left;
-    margin-left: -180px;
+    margin-left: -400px;
 
 }
 
