@@ -49,16 +49,13 @@ p{
 
 }
 
-.topBot{
-    margin: 50px auto
-}
-
 .bottomMid{
 
 }
 
 .topBot{
    display: flex;
+   margin: 50px auto;
 
 }
 
