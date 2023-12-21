@@ -15,9 +15,12 @@ p{
     margin: 10px;
 }
 
+h2, h3{
+    margin: 3px auto;
+}
+
 .topOuter{
     display: grid;
-
 }
 
 .topInner{
@@ -31,8 +34,15 @@ p{
                   
 .topImg2{
     position: absolute;
-    margin: 100px 550px
-    
+    margin: 100px 550px;
+}
+
+.wrt{
+    margin: 40px auto;
+}
+
+.secTop{
+    margin: 30px;
 }
 
 .topMid{
@@ -41,14 +51,19 @@ p{
 
 .midh{
     float: left;
-    margin-left: 50px;
-    margin-top: 50px;
+    margin-left: 100px;
+    margin-top: 100px;
+    padding: 50px;
 }
 
 .midImg{
     float: left;
     margin-left: -400px;
 
+}
+
+.mid{
+    margin: 50px auto;
 }
 
 .bottomMid{
@@ -58,32 +73,87 @@ p{
 .topBot{
    display: flex;
    margin: 50px auto;
-
 }
 
 .midBot img{
-    margin-right: 130px;
-    
-
-
+    margin: 50px 100px 50px auto;
 }
 
 .downBot{
+    margin: 30px auto;
 
 }
 
 button{
+    background-color: transparent;
     width: 150px;
     height: 40px;
     border-radius: 30px;
     cursor: pointer;
+    margin: 20px auto;
 }
 
-button :hover{
-
+.mac:hover{
+    background-color:rgb(67, 67, 233);
 }
+
+.win:hover{
+    background-color: aquamarine;
+}
+
+
 
 .vector{
     margin-left: 0;
 }
+
+.lastpage{
+    width: 1200px;
+    background-color:rgb(252, 252, 252);
+    display: flex;
+    margin: auto 70px;
+}
+.p1 img{
+    width: 80px;
+    height: 60px;
+    margin: 10px auto 10px 100px;
+}
+
+.p2{
+    display: grid;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.p3{
+    display: grid;
+    margin-right: 30px;
+}
+
+.pp{
+    margin-top: 0;
+}
+
+.p4{
+    margin-left: 400px;
+    margin-right: 50px;
+    
+}
+
+.p5{
+    margin-left: 40px;
+}
+
+.p4 img{
+    background-color: transparent;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.p4 img:hover{
+    background-color: aquamarine;
+
+
+}
+
 
